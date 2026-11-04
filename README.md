@@ -6,13 +6,13 @@ Access Day is a website for a fictional one-day conference about web accessibili
 
 ## Project status
 
-🚧 In development. The website pages have not been created yet.
+🚧 In development. The home page is done. Other pages have not been created yet.
 
 ## Features
 
 Planned for the first version:
 
-- [ ] Home page with event information
+- [x] Home page with event information
 - [ ] Schedule with talks and workshops
 - [ ] Speaker profiles
 - [ ] Demo registration form
@@ -24,8 +24,6 @@ Planned for the first version:
 - HTML5
 
 ## How to run
-
-The website will be available to run once the first page is added.
 
 1. Clone the repository:
 
