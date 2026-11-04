@@ -4,6 +4,9 @@ Access Day is a website for a fictional one-day conference about web accessibili
 
 > **Note:** This event is fictional and created for learning and portfolio purposes.
 
+## Live site
+[View the live site](https://enzokozo.github.io/access-day/)
+
 ## Project status
 
 🚧 In development. The home page is done. Other pages have not been created yet.
@@ -38,7 +41,6 @@ Planned for the first version:
 
 - Build the website pages using semantic HTML
 - Validate the markup and test accessibility
-- Publish the website with GitHub Pages
 - Add responsive styling with CSS
 
 ## License
