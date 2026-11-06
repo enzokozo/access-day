@@ -9,7 +9,7 @@ Access Day is a website for a fictional one-day conference about web accessibili
 
 ## Project status
 
-🚧 In development. The home and schedule pages are done. Other pages have not been created yet.
+🚧 In development. The home, schedule and speakers pages are done. Other pages have not been created yet.
 
 ## Features
 
@@ -17,7 +17,7 @@ Planned for the first version:
 
 - [x] Home page with event information
 - [x] Schedule with talks and workshops
-- [ ] Speaker profiles
+- [x] Speaker profiles
 - [ ] Demo registration form
 - [ ] Registration confirmation page
 - [ ] Semantic and accessible HTML structure
@@ -42,6 +42,10 @@ Planned for the first version:
 - Build the website pages using semantic HTML
 - Validate the markup and test accessibility
 - Add responsive styling with CSS
+
+## Credits
+
+   Speaker illustrations from [Open Peeps](https://openpeeps.com) by Pablo Stanley, downloaded from Blush and licensed under CC0. They are not covered by this project's MIT License.
 
 ## License
 
