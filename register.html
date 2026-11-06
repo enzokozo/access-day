@@ -46,6 +46,62 @@
 
                 </fieldset>
 
+                <fieldset>
+                    <legend>Type of ticket (required)</legend>
+                    
+                    <div>
+                        <input type="radio" name="ticket-type" id="ticket-type-standard" value="standard" required>
+                        <label for="ticket-type-standard">Standard ticket</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="ticket-type" id="ticket-type-vip" value="vip" required>
+                        <label for="ticket-type-vip">VIP ticket</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="ticket-type" id="ticket-type-student" value="student" required>
+                        <label for="ticket-type-student">Student ticket</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Workshops (optional)</legend>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="pour-principles" value="pour-principles">
+                        <label for="pour-principles">Applying the POUR Principles to a Web Page - 10:00 AM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="screen-reader" value="screen-reader">
+                        <label for="screen-reader">Navigating a Website with a Screen Reader - 11:00 AM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="running-audits" value="running-audits">
+                        <label for="running-audits">Running Audits with Lighthouse and WAVE - 1:00 PM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="improving-text" value="improving-text">
+                        <label for="improving-text">Improving Headings, Alt Text, Form Labels, and Link Text - 2:00 PM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="adding-aria" value="adding-aria">
+                        <label for="adding-aria">Adding ARIA Roles and Attributes to a Page - 3:00 PM</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Accessibility needs (optional)</legend>
+                    <div>
+                        <label for="accessibility-needs">Please let us know if you have any accessibility needs (e.g. sign language interpreter, materials in an accessible format):</label>
+                        <textarea name="accessibility-needs" id="accessibility-needs" rows="5"></textarea>
+                    </div>
+                </fieldset>
+
                 <button type="submit">Submit registration</button>
             </form>
         </main>
