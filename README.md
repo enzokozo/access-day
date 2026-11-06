@@ -9,7 +9,7 @@ Access Day is a website for a fictional one-day conference about web accessibili
 
 ## Project status
 
-🚧 In development. The home, schedule and speakers pages are done. Other pages have not been created yet.
+🚧 In development. All MVP pages have been created.
 
 ## Features
 
@@ -18,8 +18,8 @@ Planned for the first version:
 - [x] Home page with event information
 - [x] Schedule with talks and workshops
 - [x] Speaker profiles
-- [ ] Demo registration form
-- [ ] Registration confirmation page
+- [x] Demo registration form
+- [x] Registration confirmation page
 - [ ] Semantic and accessible HTML structure
 
 ## Technologies
@@ -39,7 +39,6 @@ Planned for the first version:
 
 ## Next steps
 
-- Build the website pages using semantic HTML
 - Validate the markup and test accessibility
 - Add responsive styling with CSS
 

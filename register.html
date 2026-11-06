@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Try the registration form for Access Day, a fictional web accessibility event. This is a demo, so no real sign-up takes place.">
+        <title>Register | Access Day</title>
+    </head>
+
+    <body>
+        <a href="#main-content">Skip to main content</a>
+
+        <header>
+            <a href="index.html">Access Day</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="speakers.html">Speakers</a></li>
+                    <li><a href="register.html" aria-current="page">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content">
+            <h1>Register for Access Day</h1>
+            <p>This form is only a demo. No data is stored, but anything you submit will appear in the page URL, so please don't enter real information.</p>
+            <form action="confirmation.html" method="get">
+                <fieldset>
+                    <legend>Contact details</legend>
+                    
+                    <div>
+                        <label for="name">Full name (required):</label>
+                        <input type="text" name="name" id="name" autocomplete="name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email (required):</label>
+                        <input type="email" name="email" id="email" autocomplete="email" required>
+                    </div>
+
+                    <div>
+                        <label for="organization">Organization (optional):</label>
+                        <input type="text" name="organization" id="organization" autocomplete="organization">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Type of ticket (required)</legend>
+                    
+                    <div>
+                        <input type="radio" name="ticket-type" id="ticket-type-standard" value="standard" required>
+                        <label for="ticket-type-standard">Standard ticket</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="ticket-type" id="ticket-type-vip" value="vip" required>
+                        <label for="ticket-type-vip">VIP ticket</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="ticket-type" id="ticket-type-student" value="student" required>
+                        <label for="ticket-type-student">Student ticket</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Workshops (optional)</legend>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="pour-principles" value="pour-principles">
+                        <label for="pour-principles">Applying the POUR Principles to a Web Page - 10:00 AM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="screen-reader" value="screen-reader">
+                        <label for="screen-reader">Navigating a Website with a Screen Reader - 11:00 AM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="running-audits" value="running-audits">
+                        <label for="running-audits">Running Audits with Lighthouse and WAVE - 1:00 PM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="improving-text" value="improving-text">
+                        <label for="improving-text">Improving Headings, Alt Text, Form Labels, and Link Text - 2:00 PM</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="workshops" id="adding-aria" value="adding-aria">
+                        <label for="adding-aria">Adding ARIA Roles and Attributes to a Page - 3:00 PM</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Accessibility needs (optional)</legend>
+                    <div>
+                        <label for="accessibility-needs">Please let us know if you have any accessibility needs (e.g. sign language interpreter, materials in an accessible format):</label>
+                        <textarea name="accessibility-needs" id="accessibility-needs" rows="5"></textarea>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Submit registration</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Access Day is a fictional event, created for learning purposes.</p>
+            <p><a href="https://github.com/enzokozo/access-day">View the source code on GitHub</a></p>
+            <p>Copyright &copy; 2026 Enzo Kozonoe. MIT License.</p>
+        </footer>
+    </body>
+</html>
